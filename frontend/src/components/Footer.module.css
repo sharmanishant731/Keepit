@@ -1,0 +1,17 @@
+/* Styles for the footer component */
+.footer {
+  font-size: 0.875rem; /* Small font size */
+  color: #6b7280; /* Text color: gray-500 */
+  text-align: center; /* Center align text */
+  padding: 1rem 2rem; /* Padding: 1rem top/bottom, 2rem left/right */
+  background-color: #fafafa; /* Background color: off-white */
+  border: 2px solid #6b7280; /* Border: 2px solid gray-500 */
+  border-radius: 2rem; /* Rounded corners with 2rem radius */
+  display: inline-block; /* Inline block display */
+  position: fixed; /* Fixed position relative to viewport */
+  bottom: 1rem; /* Positioned 1rem from the bottom */
+  left: 50%; /* Positioned at 50% from the left */
+  transform: translateX(-50%); /* Center horizontally by translating left 50% */
+  text-shadow: 2px 2px 15px rgba(255, 255, 255, 0.9); /* White text shadow for glow effect */
+  font-weight: bold; /* Bold font weight */
+}

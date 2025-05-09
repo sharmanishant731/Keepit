@@ -1,0 +1,112 @@
+/* Container for the landing page */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #fafafa; /* off-white background */
+  background-image: radial-gradient(circle at 1px 1px, #5b5b5b 1px, transparent 1px);
+  background-size: 20px 20px; /* subtle dot pattern */
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/* Title styling */
+.title {
+  font-size: 10rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #494949; /* lighter pastel black text color */
+  -webkit-text-stroke: 4px #494949; /* thicker pastel black outline */
+  text-shadow: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Title link styling */
+.titleLink {
+  color: #fafafa; /* off-white text color */
+  text-decoration: none;
+}
+
+/* Title hover effect removed */
+.title:hover {
+  transform: none;
+  text-shadow: none;
+}
+
+/* Subtitle styling */
+.subtitle {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: #4b5563; /* gray-700 */
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid #4b5563; /* gray-700 border */
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #fafafa; /* off-white background */
+  display: inline-block;
+}
+
+/* Container for buttons */
+.buttonContainer {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Button styling */
+.button {
+  background-color: #3a3a3a; /* black pastel background */
+  color: #ffffff; /* white text color */
+  font-size: 1.75rem;
+  font-weight: 400;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #494949; /* darker black pastel border */
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+}
+
+/* Button hover effect */
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  background-color: #3a3a3a; /* keep same black pastel background */
+}
+
+/* Footer styling */
+.footer {
+  position: relative;
+  margin-top: 4rem;
+  font-size: 0.875rem;
+  color: #6b7280; /* gray-500 */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(250, 250, 250, 0.6); /* faded off-white background */
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 8px rgba(250, 250, 250, 0.8);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer background overlay */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(250, 250, 250, 0.6); /* faded off-white background */
+  border-radius: 0.25rem;
+  box-shadow: 0 0 8px rgba(250, 250, 250, 0.8);
+  pointer-events: none;
+  z-index: -1;
+}
