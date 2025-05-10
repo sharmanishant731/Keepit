@@ -1,5 +1,7 @@
 # Keepit - A Notes App with User Authentication
 
+Keepit is a full-stack web application designed to help users manage their notes securely and efficiently. It features user authentication, an admin panel, OTP verification, and full CRUD operations for notes. This README provides a detailed overview of the project, its features, and how to set it up and use it.
+
 ## Project Screenshots
 
 ![Landing Page](frontend/public/LandingPage.png)
@@ -9,8 +11,6 @@
 ![User Page 2](frontend/public/UserPage2.png)
 ![Forgot Password](frontend/public/ForgotPassword.png)
 ![Reset Password](frontend/public/ResetPassword.png)
-
-Keepit is a full-stack web application designed to help users manage their notes securely and efficiently. It features user authentication, an admin panel, OTP verification, and full CRUD operations for notes. This README provides a detailed overview of the project, its features, and how to set it up and use it.
 
 ## What is Keepit?
 
